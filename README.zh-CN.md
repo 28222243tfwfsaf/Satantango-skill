@@ -14,8 +14,6 @@ curl -o ~/.claude/skills/satantango/SKILL.md \
     https://raw.githubusercontent.com/28222243tfwfsaf/satantango-skill/main/satantango.md
 ```
 
-就这两行。然后在 Claude Code 中输入 `/satantango` 即可激活。Skill **默认关闭**——只有在你明确调用时才生效，不影响日常对话。
-
 ## 为什么用这个 Skill
 
 大多数写作建议告诉你要用短句。从信息传递角度看，这是错的。短句在每个句号处浪费词汇重建语境——每个新句子都强迫读者重新定位：谁在说话？在哪？什么框架？
