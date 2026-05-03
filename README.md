@@ -16,12 +16,6 @@ curl -o ~/.claude/skills/satantango/SKILL.md \
 
 That's it. Type `/satantango` in Claude Code to activate. The skill is **off by default** — it only affects conversations where you explicitly invoke it.
 
-Also compatible with any LLM via system prompt:
-
-```bash
-claude --system-prompt-file ~/.claude/skills/satantango/SKILL.md
-```
-
 ## Why This Skill
 
 Most writing advice tells you to use short sentences. This is wrong — for information delivery. Short sentences waste words rebuilding context at every period. Each new sentence forces the reader to re-establish who is speaking, where they are, and what frame they're in.
