@@ -1,0 +1,52 @@
+# Satantango Skill · 撒旦探戈写作技能
+
+> 一个 Claude Code skill，让任何大语言模型都能以克拉斯诺霍尔卡伊·拉斯洛《撒旦探戈》的风格写作——信息密度和阅读效率大幅提升。
+>
+> 《撒旦探戈》是 **2025 年诺贝尔文学奖得主** 克拉斯诺霍尔卡伊·拉斯洛的代表作。
+>
+> [English](README.md)
+
+## 安装
+
+```bash
+mkdir -p ~/.claude/skills/satantango
+curl -o ~/.claude/skills/satantango/SKILL.md \
+  https://raw.githubusercontent.com/YOUR_USERNAME/satantango-skill/main/satantango.md
+```
+
+就这两行。然后在 Claude Code 中输入 `/satantango` 即可激活。Skill **默认关闭**——只有在你明确调用时才生效，不影响日常对话。
+
+也可以作为系统提示词加载到任何 LLM：
+
+```bash
+claude --system-prompt-file ~/.claude/skills/satantango/SKILL.md
+```
+
+## 为什么用这个 Skill
+
+大多数写作建议告诉你要用短句。从信息传递角度看，这是错的。短句在每个句号处浪费词汇重建语境——每个新句子都强迫读者重新定位：谁在说话？在哪？什么框架？
+
+克拉斯诺霍尔卡伊的长句技术解决了这个问题：
+
+- **一个框架，多个数据点。** 脚手架搭一次，信息持续累积。不重复主语-谓语结构。
+- **并置压缩信息。** 逗号连接的并列从句，每个词携带的信息量高于独立短句。
+- **无需微型重新定位。** 读者始终留在意识场内部。每个句号都是一堵墙——读者必须翻过去重新定位。
+- **同时性得以保留。** 物理细节、心理状态、哲学判断在语法中共存，就像它们在现实中同时发生一样。
+- **呼吸是思想的自然单位。** 人不按句号思考。人按从句、转折、自我修正思考。长句复现的是思维的本然状态。
+
+**结果：单位句子的信息密度更高，阅读理解的连贯性更强，读者的认知负荷更低。**
+
+## 这是什么
+
+一份纯文本写作指令集——不是一个应用、不是一个 API、不是一个库。基于对英文版（George Szirtes 译）和中文版（余泽民 译）的双语深度分析。不含小说原文——这是一份原创的写作技法分析。
+
+## 许可证
+
+MIT — 详见 [LICENSE](LICENSE)。
+
+## 致谢
+
+分析基于：
+- *Sátántangó* by Krasznahorkai László (1985)
+- 英译本 *Satantango* translated by George Szirtes (New Directions, 2012)
+- 中译本《撒旦探戈》余泽民 译 (译林出版社, 2017)
