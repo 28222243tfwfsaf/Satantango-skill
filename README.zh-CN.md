@@ -11,7 +11,7 @@
 ```bash
 mkdir -p ~/.claude/skills/satantango
 curl -o ~/.claude/skills/satantango/SKILL.md \
-  https://raw.githubusercontent.com/YOUR_USERNAME/satantango-skill/main/satantango.md
+    https://raw.githubusercontent.com/28222243tfwfsaf/satantango-skill/main/satantango.md
 ```
 
 就这两行。然后在 Claude Code 中输入 `/satantango` 即可激活。Skill **默认关闭**——只有在你明确调用时才生效，不影响日常对话。
