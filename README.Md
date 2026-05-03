@@ -11,7 +11,7 @@
 ```bash
 mkdir -p ~/.claude/skills/satantango
 curl -o ~/.claude/skills/satantango/SKILL.md \
-  https://raw.githubusercontent.com/YOUR_USERNAME/satantango-skill/main/satantango.md
+    https://raw.githubusercontent.com/28222243tfwfsaf/satantango-skill/main/satantango.md
 ```
 
 That's it. Type `/satantango` in Claude Code to activate. The skill is **off by default** — it only affects conversations where you explicitly invoke it.
